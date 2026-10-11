@@ -81,6 +81,19 @@ How to build it on what is already here:
 
 ## App Store publishing (2026-10-11)
 
+State: **PUBLISHED (2026-10-11)** as a community app — public repository
+`github.com/ravennotcrow/stellar-drift` (commit `eaaef76`, revision 1, status
+`live`), publisher login `ravennotcrow`, listed in the community catalog.
+Updating it means publishing again from the App Store's Publish tab (same flow,
+new revision) — the app source here stays the working copy.
+
+Identity: `mobius.json` carries a `package_id` (a UUID) so a future rename or
+repository move keeps the app's identity — the Store README's "Package identity
+and moves" rule, set here because the app was still uninstalled when it was
+first published.
+
+The earlier note below describes the listing itself:
+
 State: the Store listing is **complete and accepted** — `mobius.json` carries a
 `store` block (tagline, description, icon, one screenshot at
 `static/store/station-corridor.png`), and
