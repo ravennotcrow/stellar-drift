@@ -1,0 +1,55 @@
+{
+  "id": "stellar-drift",
+  "name": "Stellar Drift",
+  "version": "0.9.1",
+  "description": "A space mining game that quietly teaches German.",
+  "entry": "index.jsx",
+  "icon": "icon.png",
+  "offline_capable": false,
+  "display": "fullscreen",
+  "theme_color": "#05070f",
+  "background_color": "#05070f",
+  "permissions": {},
+  "runtime": {
+    "imports": [
+      "react"
+    ]
+  },
+  "source_files": [
+    "theme.js",
+    "curriculum.json",
+    "core/concepts.js",
+    "core/srs.js",
+    "core/language.js",
+    "core/combat.js",
+    "core/game.js",
+    "core/sprites.js",
+    "core/station.js",
+    "core/render.js",
+    "core/save.js",
+    "core/bar.js",
+    "core/encounters.js",
+    "core/repair.js",
+    "core/loading.js",
+    "core/market.js",
+    "core/inspection.js",
+    "core/cards.js",
+    "core/gazette.js"
+  ],
+  "static_assets": {
+    "ship.svg": "assets/ship.svg",
+    "station.svg": "assets/station.svg",
+    "crate.svg": "assets/crate.svg"
+  },
+  "store": {
+    "tagline": "A space game that teaches German while you play it.",
+    "description": "Stellar Drift is a space mining, trading and dogfighting game where the language you are learning IS the interface, instead of a lesson you sit through.\n\nYou dock at a station, read its doors, fly out to mine asteroids, fight off pirates, trade what you haul and fit better gear. Every word you need to play — fuel, hull, cargo, weapons, shields, and the small talk in the canteen — is shown in the language you are learning. A word you have never used appears in English; as you use it, it starts appearing in German some of the time, and the English scaffolding quietly fades until the German word is simply the thing in the world.\n\nThere are no flashcards and nothing to interrupt play. Playing is the practice: nine station rooms, from a newsroom fact-check to a card table that counts in German; a shipyard where hulls, weapons and modules compete for a limited number of slots; and a reactor budget you split between guns, shields and engines.\n\nGerman is the first curriculum and the one this ships with. The learning layer is separate from the game: words, teaching order and pace live in a data file you can read and edit, so the language, and how fast it stops being translated, are yours to change.\n\nPrivacy: everything stays on your own instance. The game saves to your instance's storage, sends nothing anywhere, needs no account and no network.",
+    "screenshots": [
+      {
+        "src": "static/store/station-corridor.png",
+        "alt": "A station corridor drawn in one-point perspective: ceiling lights, floor plating, nine labelled doors and a viewport looking out at a planet.",
+        "label": "The station"
+      }
+    ]
+  }
+}
