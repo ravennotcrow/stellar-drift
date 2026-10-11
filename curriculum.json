@@ -1,0 +1,1145 @@
+{
+  "_help": "The language curriculum, as data. Nothing here is game code. 'pacing' controls how fast words are learned: successesToAdvance is read per box ([box0->1, box1->2, box2->3]), so raise those numbers to slow learning down. reviewCooldownSecs is how long after using a control it can count as practice again. 'scaffolding' decides which boxes still show English. 'concepts' is the teaching order.",
+  "version": 1,
+  "pacing": {
+    "successesToAdvance": [
+      1,
+      2,
+      3
+    ],
+    "failuresToDrop": 1,
+    "reviewCooldownSecs": 1.1
+  },
+  "scaffolding": {
+    "nativeFirstUpToBox": 0,
+    "targetOnlyFromBox": 3
+  },
+  "concepts": [
+    {
+      "id": "UP",
+      "de": "oben",
+      "en": "up",
+      "group": "direction"
+    },
+    {
+      "id": "DOWN",
+      "de": "unten",
+      "en": "down",
+      "group": "direction"
+    },
+    {
+      "id": "LEFT",
+      "de": "links",
+      "en": "left",
+      "group": "direction"
+    },
+    {
+      "id": "RIGHT",
+      "de": "rechts",
+      "en": "right",
+      "group": "direction"
+    },
+    {
+      "id": "FUEL",
+      "de": "Treibstoff",
+      "en": "fuel",
+      "group": "system"
+    },
+    {
+      "id": "CARGO",
+      "de": "Frachtraum",
+      "en": "cargo hold",
+      "group": "system"
+    },
+    {
+      "id": "ENGINE",
+      "de": "Antrieb",
+      "en": "engine",
+      "group": "system"
+    },
+    {
+      "id": "DRILL",
+      "de": "Bohrer",
+      "en": "drill",
+      "group": "system"
+    },
+    {
+      "id": "HULL",
+      "de": "Hülle",
+      "en": "hull",
+      "group": "system"
+    },
+    {
+      "id": "CREDITS",
+      "de": "Guthaben",
+      "en": "credits",
+      "group": "system"
+    },
+    {
+      "id": "STATION",
+      "de": "Station",
+      "en": "station",
+      "group": "station"
+    },
+    {
+      "id": "DOCK",
+      "de": "andocken",
+      "en": "dock",
+      "group": "station"
+    },
+    {
+      "id": "SELL",
+      "de": "verkaufen",
+      "en": "sell",
+      "group": "station"
+    },
+    {
+      "id": "BUY",
+      "de": "kaufen",
+      "en": "buy",
+      "group": "station"
+    },
+    {
+      "id": "REPAIR",
+      "de": "reparieren",
+      "en": "repair",
+      "group": "station"
+    },
+    {
+      "id": "MISSION",
+      "de": "Auftrag",
+      "en": "mission",
+      "group": "station"
+    },
+    {
+      "id": "ICE",
+      "de": "Eis",
+      "en": "ice",
+      "group": "material"
+    },
+    {
+      "id": "ORE",
+      "de": "Erz",
+      "en": "ore",
+      "group": "material"
+    },
+    {
+      "id": "SILICON",
+      "de": "Silizium",
+      "en": "silicon",
+      "group": "material"
+    },
+    {
+      "id": "METAL",
+      "de": "Metall",
+      "en": "metal",
+      "group": "material"
+    },
+    {
+      "id": "CRYSTAL",
+      "de": "Kristall",
+      "en": "crystal",
+      "group": "material"
+    },
+    {
+      "id": "GOLD",
+      "de": "Gold",
+      "en": "gold",
+      "group": "material"
+    },
+    {
+      "id": "HEAVY",
+      "de": "schwer",
+      "en": "heavy",
+      "group": "property"
+    },
+    {
+      "id": "VALUABLE",
+      "de": "wertvoll",
+      "en": "valuable",
+      "group": "property"
+    },
+    {
+      "id": "DANGER",
+      "de": "Gefahr",
+      "en": "danger",
+      "group": "property"
+    },
+    {
+      "id": "DAMAGED",
+      "de": "beschädigt",
+      "en": "damaged",
+      "group": "property"
+    },
+    {
+      "id": "EMPTY",
+      "de": "leer",
+      "en": "empty",
+      "group": "property"
+    },
+    {
+      "id": "FULL",
+      "de": "voll",
+      "en": "full",
+      "group": "property"
+    },
+    {
+      "id": "BROKEN",
+      "de": "kaputt",
+      "en": "broken",
+      "group": "property"
+    },
+    {
+      "id": "MALFUNC",
+      "de": "Störung",
+      "en": "malfunction",
+      "group": "property"
+    },
+    {
+      "id": "JETTISON",
+      "de": "abwerfen",
+      "en": "jettison",
+      "group": "cargo"
+    },
+    {
+      "id": "VERLADUNG",
+      "de": "Verladung",
+      "en": "loading bay",
+      "group": "station"
+    },
+    {
+      "id": "BUERO",
+      "de": "Büro",
+      "en": "office",
+      "group": "station"
+    },
+    {
+      "id": "START",
+      "de": "abdocken",
+      "en": "undock",
+      "group": "station"
+    },
+    {
+      "id": "LEICHT",
+      "de": "leicht",
+      "en": "light",
+      "group": "property"
+    },
+    {
+      "id": "ZERBRECHLICH",
+      "de": "zerbrechlich",
+      "en": "fragile",
+      "group": "property"
+    },
+    {
+      "id": "HEUTE",
+      "de": "heute",
+      "en": "today",
+      "group": "time"
+    },
+    {
+      "id": "DOPPELT",
+      "de": "doppelt",
+      "en": "double",
+      "group": "property"
+    },
+    {
+      "id": "ZAEHLT",
+      "de": "zählt",
+      "en": "counts",
+      "group": "property"
+    },
+    {
+      "id": "KANTINE",
+      "de": "Kantine",
+      "en": "canteen",
+      "group": "social"
+    },
+    {
+      "id": "HELLO",
+      "de": "Hallo",
+      "en": "hello",
+      "group": "social"
+    },
+    {
+      "id": "GOODBYE",
+      "de": "Tschüss",
+      "en": "bye",
+      "group": "social"
+    },
+    {
+      "id": "THANKS",
+      "de": "Danke",
+      "en": "thanks",
+      "group": "social"
+    },
+    {
+      "id": "NO",
+      "de": "Nein",
+      "en": "no",
+      "group": "social"
+    },
+    {
+      "id": "WHAT",
+      "de": "Was?",
+      "en": "what?",
+      "group": "social"
+    },
+    {
+      "id": "HOW_ARE_YOU",
+      "de": "Wie geht's?",
+      "en": "how are you?",
+      "group": "social",
+      "kind": "phrase"
+    },
+    {
+      "id": "IM_FINE",
+      "de": "Mir geht's gut.",
+      "en": "I'm fine.",
+      "group": "social",
+      "kind": "phrase"
+    },
+    {
+      "id": "NEED_HELP",
+      "de": "Ich brauche Hilfe.",
+      "en": "I need help.",
+      "group": "social",
+      "kind": "phrase"
+    },
+    {
+      "id": "OFFER_HELP",
+      "de": "Ich helfe dir.",
+      "en": "I'll help you.",
+      "group": "social",
+      "kind": "phrase"
+    },
+    {
+      "id": "WERKSTATT",
+      "de": "Werkstatt",
+      "en": "workshop",
+      "group": "repair"
+    },
+    {
+      "id": "PUMPE",
+      "de": "Pumpe",
+      "en": "pump",
+      "group": "repair"
+    },
+    {
+      "id": "VENTIL",
+      "de": "Ventil",
+      "en": "valve",
+      "group": "repair"
+    },
+    {
+      "id": "KUEHLER",
+      "de": "Kühler",
+      "en": "cooler",
+      "group": "repair"
+    },
+    {
+      "id": "HEISS",
+      "de": "heiß",
+      "en": "hot",
+      "group": "repair"
+    },
+    {
+      "id": "LECKT",
+      "de": "leckt",
+      "en": "leaking",
+      "group": "repair"
+    },
+    {
+      "id": "OK",
+      "de": "ok",
+      "en": "fine",
+      "group": "repair"
+    },
+    {
+      "id": "AUS",
+      "de": "aus",
+      "en": "off",
+      "group": "repair"
+    },
+    {
+      "id": "KUEHLEN",
+      "de": "kühlen",
+      "en": "to cool",
+      "group": "repair"
+    },
+    {
+      "id": "ABDICHTEN",
+      "de": "abdichten",
+      "en": "to seal",
+      "group": "repair"
+    },
+    {
+      "id": "MARKT",
+      "de": "Markt",
+      "en": "market",
+      "group": "market"
+    },
+    {
+      "id": "WARE",
+      "de": "Ware",
+      "en": "goods",
+      "group": "market"
+    },
+    {
+      "id": "PREIS",
+      "de": "Preis",
+      "en": "price",
+      "group": "market"
+    },
+    {
+      "id": "NAHRUNG",
+      "de": "Nahrung",
+      "en": "food",
+      "group": "market"
+    },
+    {
+      "id": "MEDIZIN",
+      "de": "Medizin",
+      "en": "medicine",
+      "group": "market"
+    },
+    {
+      "id": "SCHROTT",
+      "de": "Schrott",
+      "en": "scrap",
+      "group": "market"
+    },
+    {
+      "id": "STEIGT",
+      "de": "steigt",
+      "en": "rising",
+      "group": "market"
+    },
+    {
+      "id": "FAELLT",
+      "de": "faellt",
+      "en": "falling",
+      "group": "market"
+    },
+    {
+      "id": "STABIL",
+      "de": "stabil",
+      "en": "steady",
+      "group": "market"
+    },
+    {
+      "id": "UNKLAR",
+      "de": "unklar",
+      "en": "unclear",
+      "group": "market"
+    },
+    {
+      "id": "GEWINN",
+      "de": "Gewinn",
+      "en": "profit",
+      "group": "market"
+    },
+    {
+      "id": "VERLUST",
+      "de": "Verlust",
+      "en": "loss",
+      "group": "market"
+    },
+    {
+      "id": "KONTROLLE",
+      "de": "Kontrolle",
+      "en": "inspection",
+      "group": "work"
+    },
+    {
+      "id": "TAFEL",
+      "de": "Tafel",
+      "en": "board",
+      "group": "work"
+    },
+    {
+      "id": "ZULASSEN",
+      "de": "zulassen",
+      "en": "admit",
+      "group": "work"
+    },
+    {
+      "id": "ZURUECK",
+      "de": "zurueck",
+      "en": "send back",
+      "group": "work"
+    },
+    {
+      "id": "ENTZUENDLICH",
+      "de": "entzuendlich",
+      "en": "flammable",
+      "group": "property"
+    },
+    {
+      "id": "RADIOAKTIV",
+      "de": "radioaktiv",
+      "en": "radioactive",
+      "group": "property"
+    },
+    {
+      "id": "SPERRIG",
+      "de": "sperrig",
+      "en": "bulky",
+      "group": "property"
+    },
+    {
+      "id": "FRACHT",
+      "de": "Fracht",
+      "en": "freight",
+      "group": "work"
+    },
+    {
+      "id": "KARTEN",
+      "de": "Karten",
+      "en": "cards",
+      "group": "cards"
+    },
+    {
+      "id": "ASS",
+      "de": "Ass",
+      "en": "ace",
+      "group": "cards"
+    },
+    {
+      "id": "KOENIG",
+      "de": "Koenig",
+      "en": "king",
+      "group": "cards"
+    },
+    {
+      "id": "DAME",
+      "de": "Dame",
+      "en": "queen",
+      "group": "cards"
+    },
+    {
+      "id": "BUBE",
+      "de": "Bube",
+      "en": "jack",
+      "group": "cards"
+    },
+    {
+      "id": "ZIEHEN",
+      "de": "ziehen",
+      "en": "draw",
+      "group": "cards"
+    },
+    {
+      "id": "HALTEN",
+      "de": "halten",
+      "en": "hold",
+      "group": "cards"
+    },
+    {
+      "id": "ZU_VIEL",
+      "de": "zu viel",
+      "en": "too much",
+      "group": "cards"
+    },
+    {
+      "id": "ZWEI",
+      "de": "zwei",
+      "en": "2",
+      "group": "number"
+    },
+    {
+      "id": "DREI",
+      "de": "drei",
+      "en": "3",
+      "group": "number"
+    },
+    {
+      "id": "VIER",
+      "de": "vier",
+      "en": "4",
+      "group": "number"
+    },
+    {
+      "id": "FUENF",
+      "de": "fuenf",
+      "en": "5",
+      "group": "number"
+    },
+    {
+      "id": "SECHS",
+      "de": "sechs",
+      "en": "6",
+      "group": "number"
+    },
+    {
+      "id": "SIEBEN",
+      "de": "sieben",
+      "en": "7",
+      "group": "number"
+    },
+    {
+      "id": "ACHT",
+      "de": "acht",
+      "en": "8",
+      "group": "number"
+    },
+    {
+      "id": "NEUN",
+      "de": "neun",
+      "en": "9",
+      "group": "number"
+    },
+    {
+      "id": "ZEHN",
+      "de": "zehn",
+      "en": "10",
+      "group": "number"
+    },
+    {
+      "id": "ELF",
+      "de": "elf",
+      "en": "11",
+      "group": "number"
+    },
+    {
+      "id": "ZWOELF",
+      "de": "zwoelf",
+      "en": "12",
+      "group": "number"
+    },
+    {
+      "id": "DREIZEHN",
+      "de": "dreizehn",
+      "en": "13",
+      "group": "number"
+    },
+    {
+      "id": "VIERZEHN",
+      "de": "vierzehn",
+      "en": "14",
+      "group": "number"
+    },
+    {
+      "id": "FUENFZEHN",
+      "de": "fuenfzehn",
+      "en": "15",
+      "group": "number"
+    },
+    {
+      "id": "SECHSZEHN",
+      "de": "sechzehn",
+      "en": "16",
+      "group": "number"
+    },
+    {
+      "id": "SIEBZEHN",
+      "de": "siebzehn",
+      "en": "17",
+      "group": "number"
+    },
+    {
+      "id": "ACHTZEHN",
+      "de": "achtzehn",
+      "en": "18",
+      "group": "number"
+    },
+    {
+      "id": "NEUNZEHN",
+      "de": "neunzehn",
+      "en": "19",
+      "group": "number"
+    },
+    {
+      "id": "ZWANZIG",
+      "de": "zwanzig",
+      "en": "20",
+      "group": "number"
+    },
+    {
+      "id": "EINS",
+      "de": "eins",
+      "en": "one",
+      "group": "number"
+    },
+    {
+      "id": "GAZETTE",
+      "de": "Gazette",
+      "en": "gazette",
+      "group": "news"
+    },
+    {
+      "id": "NACHRICHT",
+      "de": "Nachricht",
+      "en": "report",
+      "group": "news"
+    },
+    {
+      "id": "ARCHIV",
+      "de": "Archiv",
+      "en": "archive",
+      "group": "news"
+    },
+    {
+      "id": "DRUCKEN",
+      "de": "drucken",
+      "en": "publish",
+      "group": "news"
+    },
+    {
+      "id": "VERWERFEN",
+      "de": "verwerfen",
+      "en": "discard",
+      "group": "news"
+    },
+    {
+      "id": "SEKTOR",
+      "de": "Sektor",
+      "en": "sector",
+      "group": "news"
+    },
+    {
+      "id": "FRACHTER",
+      "de": "Frachter",
+      "en": "freighter",
+      "group": "news"
+    },
+    {
+      "id": "STURM",
+      "de": "Sturm",
+      "en": "storm",
+      "group": "news"
+    },
+    {
+      "id": "RUHE",
+      "de": "Ruhe",
+      "en": "calm",
+      "group": "news"
+    },
+    {
+      "id": "GESPERRT",
+      "de": "gesperrt",
+      "en": "closed",
+      "group": "news"
+    },
+    {
+      "id": "OFFEN",
+      "de": "offen",
+      "en": "open",
+      "group": "news"
+    },
+    {
+      "id": "ICH",
+      "de": "ich",
+      "en": "I",
+      "group": "phrase"
+    },
+    {
+      "id": "DU",
+      "de": "du",
+      "en": "you",
+      "group": "phrase"
+    },
+    {
+      "id": "WIE",
+      "de": "wie",
+      "en": "how",
+      "group": "phrase"
+    },
+    {
+      "id": "GEHT",
+      "de": "geht",
+      "en": "goes",
+      "group": "phrase"
+    },
+    {
+      "id": "ES",
+      "de": "es",
+      "en": "it",
+      "group": "phrase"
+    },
+    {
+      "id": "GUT",
+      "de": "gut",
+      "en": "good",
+      "group": "phrase"
+    },
+    {
+      "id": "SCHLECHT",
+      "de": "schlecht",
+      "en": "bad",
+      "group": "phrase"
+    },
+    {
+      "id": "SCHLIMM",
+      "de": "schlimm",
+      "en": "severe",
+      "group": "phrase"
+    },
+    {
+      "id": "MUEDE",
+      "de": "muede",
+      "en": "tired",
+      "group": "phrase"
+    },
+    {
+      "id": "HEISST",
+      "de": "heisst",
+      "en": "are called",
+      "group": "phrase"
+    },
+    {
+      "id": "HEISSE",
+      "de": "heisse",
+      "en": "am called",
+      "group": "phrase"
+    },
+    {
+      "id": "NAME",
+      "de": "Name",
+      "en": "name",
+      "group": "phrase"
+    },
+    {
+      "id": "ARBEIT",
+      "de": "Arbeit",
+      "en": "work",
+      "group": "phrase"
+    },
+    {
+      "id": "LANG",
+      "de": "lang",
+      "en": "long",
+      "group": "phrase"
+    },
+    {
+      "id": "FLUG",
+      "de": "Flug",
+      "en": "flight",
+      "group": "phrase"
+    },
+    {
+      "id": "WO",
+      "de": "wo",
+      "en": "where",
+      "group": "phrase"
+    },
+    {
+      "id": "KOMMST",
+      "de": "kommst",
+      "en": "come",
+      "group": "phrase"
+    },
+    {
+      "id": "HER",
+      "de": "her",
+      "en": "from",
+      "group": "phrase"
+    },
+    {
+      "id": "WAR",
+      "de": "war",
+      "en": "was",
+      "group": "phrase"
+    },
+    {
+      "id": "NACHT",
+      "de": "Nacht",
+      "en": "night",
+      "group": "phrase"
+    },
+    {
+      "id": "KAFFEE",
+      "de": "Kaffee",
+      "en": "coffee",
+      "group": "phrase"
+    },
+    {
+      "id": "MOECHTE",
+      "de": "moechte",
+      "en": "would like",
+      "group": "phrase"
+    },
+    {
+      "id": "MOECHTEST",
+      "de": "moechtest",
+      "en": "would you like",
+      "group": "phrase"
+    },
+    {
+      "id": "MUSIK",
+      "de": "Musik",
+      "en": "music",
+      "group": "phrase"
+    },
+    {
+      "id": "HOERST",
+      "de": "hoerst",
+      "en": "do you listen",
+      "group": "phrase"
+    },
+    {
+      "id": "GERNE",
+      "de": "gerne",
+      "en": "gladly",
+      "group": "phrase"
+    },
+    {
+      "id": "JA",
+      "de": "ja",
+      "en": "yes",
+      "group": "phrase"
+    },
+    {
+      "id": "BITTE",
+      "de": "bitte",
+      "en": "please",
+      "group": "phrase"
+    },
+    {
+      "id": "MEIN",
+      "de": "mein",
+      "en": "my",
+      "group": "phrase"
+    },
+    {
+      "id": "IST",
+      "de": "ist",
+      "en": "is",
+      "group": "phrase"
+    },
+    {
+      "id": "WAS",
+      "de": "was",
+      "en": "what",
+      "group": "phrase"
+    },
+    {
+      "id": "MACHST",
+      "de": "machst",
+      "en": "are doing",
+      "group": "phrase"
+    },
+    {
+      "id": "BIN",
+      "de": "bin",
+      "en": "am",
+      "group": "phrase"
+    },
+    {
+      "id": "DER",
+      "de": "der",
+      "en": "the",
+      "group": "phrase"
+    },
+    {
+      "id": "DIE",
+      "de": "die",
+      "en": "the",
+      "group": "phrase"
+    },
+    {
+      "id": "GUTE",
+      "de": "gute",
+      "en": "good",
+      "group": "phrase"
+    },
+    {
+      "id": "FLITZER",
+      "de": "Flitzer",
+      "en": "skiff",
+      "group": "ship"
+    },
+    {
+      "id": "LANZER",
+      "de": "Lanzer",
+      "en": "lancer",
+      "group": "ship"
+    },
+    {
+      "id": "BOLLWERK",
+      "de": "Bollwerk",
+      "en": "bulwark",
+      "group": "ship"
+    },
+    {
+      "id": "PULS_LASER",
+      "de": "Pulslaser",
+      "en": "pulse laser",
+      "group": "weapon"
+    },
+    {
+      "id": "ION",
+      "de": "Ionenstrahl",
+      "en": "ion beam",
+      "group": "weapon"
+    },
+    {
+      "id": "PLASMA",
+      "de": "Plasma",
+      "en": "plasma",
+      "group": "weapon"
+    },
+    {
+      "id": "RAKETE",
+      "de": "Rakete",
+      "en": "missile",
+      "group": "weapon"
+    },
+    {
+      "id": "REAKTOR",
+      "de": "Reaktor",
+      "en": "reactor",
+      "group": "module"
+    },
+    {
+      "id": "SCHILD_GEN",
+      "de": "Schildgenerator",
+      "en": "shield generator",
+      "group": "module"
+    },
+    {
+      "id": "PANZERUNG",
+      "de": "Panzerung",
+      "en": "armour",
+      "group": "module"
+    },
+    {
+      "id": "TRIEBWERK",
+      "de": "Triebwerk",
+      "en": "thruster",
+      "group": "module"
+    },
+    {
+      "id": "ZIELCOMP",
+      "de": "Zielcomputer",
+      "en": "targeting computer",
+      "group": "module"
+    },
+    {
+      "id": "LADERAUM",
+      "de": "Laderaum",
+      "en": "hold expansion",
+      "group": "module"
+    },
+    {
+      "id": "WAFFE",
+      "de": "Waffe",
+      "en": "weapon",
+      "group": "combat"
+    },
+    {
+      "id": "SCHILD",
+      "de": "Schild",
+      "en": "shield",
+      "group": "combat"
+    },
+    {
+      "id": "ENERGIE",
+      "de": "Energie",
+      "en": "energy",
+      "group": "combat"
+    },
+    {
+      "id": "TREFFER",
+      "de": "Treffer",
+      "en": "hit",
+      "group": "combat"
+    },
+    {
+      "id": "FEUER",
+      "de": "Feuer",
+      "en": "fire",
+      "group": "combat"
+    },
+    {
+      "id": "ZIEL",
+      "de": "Ziel",
+      "en": "target",
+      "group": "combat"
+    },
+    {
+      "id": "PIRAT",
+      "de": "Pirat",
+      "en": "pirate",
+      "group": "combat"
+    },
+    {
+      "id": "BEUTE",
+      "de": "Beute",
+      "en": "loot",
+      "group": "combat"
+    },
+    {
+      "id": "FLUCHT",
+      "de": "Flucht",
+      "en": "flight",
+      "group": "combat"
+    },
+    {
+      "id": "ANGRIFF",
+      "de": "Angriff",
+      "en": "attack",
+      "group": "combat"
+    },
+    {
+      "id": "WERFT",
+      "de": "Werft",
+      "en": "shipyard",
+      "group": "station"
+    },
+    {
+      "id": "PLAENKLER",
+      "de": "Plänkler",
+      "en": "skirmisher",
+      "group": "pirate"
+    },
+    {
+      "id": "RAUBER",
+      "de": "Räuber",
+      "en": "raider",
+      "group": "pirate"
+    },
+    {
+      "id": "KAPITAEN",
+      "de": "Kapitän",
+      "en": "captain",
+      "group": "pirate"
+    },
+    {
+      "id": "MUNITION",
+      "de": "Munition",
+      "en": "ammunition",
+      "group": "combat"
+    },
+    {
+      "id": "SLOT",
+      "de": "Platz",
+      "en": "slot",
+      "group": "combat"
+    },
+    {
+      "id": "SIEG",
+      "de": "Sieg",
+      "en": "victory",
+      "group": "combat"
+    },
+    {
+      "id": "BEREIT",
+      "de": "bereit",
+      "en": "ready",
+      "group": "combat"
+    },
+    {
+      "id": "ZERSTOERT",
+      "de": "zerstört",
+      "en": "destroyed",
+      "group": "combat"
+    },
+    {
+      "id": "VERLADEN",
+      "de": "verladen",
+      "en": "loaded",
+      "group": "combat"
+    }
+  ]
+}
